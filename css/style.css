@@ -12,6 +12,8 @@
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: start;
+  
+
 }
 .testmonial_area *{
   direction: ltr;
@@ -37,6 +39,7 @@ body {
   font-family: "IRANSans";
   font-weight: normal;
   font-style: normal;
+   
   
 }
 
@@ -87,7 +90,7 @@ button {
 
 /* line 39, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
 h1, h2, h3, h4, h5 {
-  font-family: "Poppins", sans-serif;
+  font-family: "IRANSans";
   color: #1F1F1F;
 }
 
@@ -119,7 +122,7 @@ p {
   line-height: 28px;
   color: #4D4D4D;
   margin-bottom: 13px;
-  font-family: "Poppins", sans-serif;
+  font-family: "IRANSans";
 }
 
 /* line 68, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/theme-default.scss */
@@ -399,7 +402,7 @@ h3 {
   color: #131313;
   display: inline-block;
   padding: 18px 44px;
-  font-family: "Poppins", sans-serif;
+  font-family: "IRANSans";
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -435,7 +438,7 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 14px 27px;
-  font-family: "Poppins", sans-serif;
+  font-family: "IRANSans";
   font-size: 16px;
   font-weight: 500;
   border: 0;
@@ -476,7 +479,7 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 14px 27px;
-  font-family: "Poppins", sans-serif;
+  font-family: "IRANSans";
   font-size: 16px;
   font-weight: 500;
   border: 0;
@@ -515,7 +518,7 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 13px 27px;
-  font-family: "Poppins", sans-serif;
+  font-family: "IRANSans";
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -561,7 +564,7 @@ h3 {
   color: #48B6FB !important;
   display: inline-block;
   padding: 14px 31px;
-  font-family: "Poppins", sans-serif;
+  font-family: "IRANSans";
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -602,7 +605,7 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 18px 24px;
-  font-family: "Poppins", sans-serif;
+  font-family: "IRANSans";
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -1079,7 +1082,7 @@ h3 {
   font-weight: 400;
   display: inline-block;
   padding: 0px 0px 0px 0px;
-  font-family: "Poppins", sans-serif;
+  font-family: "IRANSans";
   position: relative;
   text-transform: capitalize;
 }
@@ -1413,7 +1416,7 @@ h3 {
 /* line 44, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 {
   color: #FFF;
-  font-family: "Poppins", sans-serif;
+  font-family: "IRANSans";
   font-size: 60px;
   text-transform: capitalize;
   letter-spacing: 2px;
@@ -2036,7 +2039,7 @@ h3 {
 /* line 103, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_gallery.scss */
 .portfolio_details_area .portfolio_details_content p {
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
+  font-family: "IRANSans";
   color: #727272;
   line-height: 28px;
 }
@@ -2667,7 +2670,7 @@ h3 {
 
 /* line 397, ../../Arafath/CL/CL October/214. App Landing Page/HTML/scss/_offers.scss */
 .gj-picker-md {
-  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-family: "IRANSans";
   font-size: 16px;
   font-weight: 400;
   letter-spacing: .04em;
@@ -3093,7 +3096,7 @@ h3 {
   cursor: pointer;
   display: block;
   float: left;
-  font-family: "Poppins", sans-serif;
+  font-family: "IRANSans";
   font-weight: normal;
   width: 100% !important;
   /* height: 42px; */
