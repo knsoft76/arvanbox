@@ -27,6 +27,15 @@
 .wpb_wrapper{
   text-align: center;
 }
+.container-dev {
+  background-color: #f4f4f4;
+  color: #777;
+  padding: 15px 5px 1px 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1200px;
+  line-height: 15px;
+}
 
 /* Normal desktop :1200px. */
 /* Normal desktop :992px. */

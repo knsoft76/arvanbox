@@ -383,6 +383,103 @@
         </div>
         </div>
     </div>
+
+
+    <div class="container">
+        <div class="app_download wow fadeInDown" data-wow-duration="1s" data-wow-delay=".1s">
+        <div class="row text-justify">
+            <p><strong>* مدیریت فایل:</strong> شامل ذخیره‌سازی داده‌ها، پشتیبان‌گیری از اطلاعات گوشی، همگام‌سازی پوشه‌ها، به اشتراک‌گذاری، نگهداری سوابق، دسترسی آسان به داده‌های ابری</p>
+            <p><strong>** امنیت بالا:</strong> انتقال داده‌ها از طریق کانال امن، نگهداری ۳ نسخه از هر فایل برروی سخت‌افزارهای مختلف، نگهداری فایل‌های پشتیبان گوشی به صورت رمزگذاری AES-256</p>
+            <p><strong>*** کنسول مدیریت کاربران:</strong> سیستم صورتحساب یکجا، درون‌ریزی لیست کارکنان، تعریف نقش‌ها و دسترسی‌ها، تائید دستگاه‌ها قبل افزودن، کنترل گردش داده‌ها، تعیین سطوح دسترسی، کنترل دسترسی از بیرون سازمان، دسترسی به داده‌های کارکنان، پایش و نظارت بر عملکرد کارکنان، گزارشات متنوع مدیریتی</p>
+        </div>
+        </div>
+    </div>
+    <div class="spacer-p"></div>
+    <div class="row">
+        
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <div class="app_download wow fadeInDown" data-wow-duration="1s" data-wow-delay=".1s">
+            <div class="alert alert-info">بعد از پرداخت، از طریق اطلاعات تماسی که در فرم پر می‌کنید با شما تماس گرفته خواهد شد.</div></div>
+            <form method="post" action="https://abrino.ir/business">
+                <div class="app_download wow fadeInDown" data-wow-duration="1s" data-wow-delay=".1s">
+                <input type="hidden" name="csrf-token" value="8e803b3982dde52595cf70b0d2567ba39aafc2c4">
+                <div class="row">
+                    <div class="col">
+                        <label for="org-orgname">نام سازمان<span class="cred">*</span></label>
+                        <input type="text" id="org-orgname" name="org-orgname" class="form-control inpute-dev fc" required="">
+                    </div>
+                    <div class="col">
+                        <label for="org-email">ایمیل <span class="cred">*</span></label>
+                        <input type="email" id="org-email" name="org-email" class="form-control inpute-dev fc" required="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label for="org-tel">شماره تماس <span class="cred">*</span></label>
+                        <input type="text" id="org-tel" name="org-tel" class="form-control inpute-dev fc ltr" placeholder="09......." required="">
+                    </div>
+                    <div class="col">
+                        <label for="org-quota">حجم درخواستی <span class="cred">*</span></label>
+                        <div class="input-group mb-3">
+                            <input type="number" class="reuqest-quota form-control inpute-dev text-center fc" name="org-quota" id="org-quota" aria-describedby="basic-addon3" value="100" minlength="3" min="100" placeholder="100" step="100" required="">
+                            <div class="input-group-append">
+                                <span class="input-group-text" id="basic-addon3">گیگابایت</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label for="org-period">مدت زمان <span class="cred">*</span></label>
+                        <select class="request-period custom-select my-1 mr-sm-2 inpute-dev mrg0 fc" name="org-period" id="org-period">
+                            <option value="1" selected="">یک ماه</option>
+                            <option value="3">سه ماه</option>
+                            <option value="6">شش ماه</option>
+                            <option value="12">یک ساله</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <label for="org-usercount">تعداد کاربران <span class="cred">*</span></label>
+                        <div class="input-group mb-3">
+                            <input type="number" class="form-control inpute-dev text-center fc" name="org-usercount" id="org-usercount" aria-describedby="basic-addon3" value="5" minlength="3" min="5" placeholder="5" step="5" required=""></div>
+                    </div>
+                </div>
+                
+                <div class="form-group form-gp">
+                    <label for="org-desc">توضیحات</label>
+                    <textarea class="form-control textarea-dev fc" name="org-desc" id="org-desc" rows="3"></textarea>
+                    <p class="mt-2">در صورت نیاز به تعداد تراکنش بالاتر، دسترسی به فضای ابری از طریق پروتکل SWIFT یا هر ویژگی درخواستی دیگر با ما <a target="_blank" href="/contact">تماس بگیرید.</a></p>
+                </div>
+                <div class="text-center">
+                    <table class="table">
+                        <tbody><tr>
+                            <td class="text-left w-50">قیمت:</td>
+                            <td class="text-right font-weight-bold"><span class="org-request-price">200,000</span> تومان</td>
+                        </tr>
+                        <tr>
+                            <td class="text-left">۹٪ مالیات بر ارزش افزوده:</td>
+                            <td class="text-right font-weight-bold"><span class="org-request-taxPrice">18,000</span> تومان</td>
+                        </tr>
+                        <tr>
+                            <td class="text-left">مجموع مبلغ پرداختی:</td>
+                            <td class="text-right font-weight-bold"><span class="org-request-totalPrice">218,000</span> تومان</td>
+                        </tr>
+                    </tbody></table>
+                    <button type="submit" class="btn btn-primary">پرداخت</button>
+                   
+                </div>
+            </div>
+            </form>
+            <br><br>
+        </div>
+      
+        <div class="col-md-3"></div>
+        </div>
+    
+    
+   
+    </div>
     <!-- productivity_area  -->
     <div class="productivity_area">
         <div class="container">
@@ -535,7 +632,6 @@
 
 
     <!--/ productivity_area  -->
-
     <!-- footer start -->
     <footer class="footer">
         <div class="footer_top">
@@ -580,13 +676,13 @@
                     <div class="col-xl-2 offset-xl-1 col-md-6 col-lg-3">
                         <div class="footer_widget">
                             <h3 class="footer_title">
-                                Services
+                                سرویس ها
                             </h3>
                             <ul>
-                                <li><a href="#">Team management</a></li>
-                                <li><a href="#">Collaboration</a></li>
-                                <li><a href="#">Todo</a></li>
-                                <li><a href="#">Events</a></li>
+                                <li><a href="#">تیم مدیریت</a></li>
+                                <li><a href="#">همکاری</a></li>
+                                <li><a href="#">انجام دادن</a></li>
+                                <li><a href="#">رویداد ها</a></li>
                             </ul>
 
                         </div>
@@ -594,30 +690,30 @@
                     <div class="col-xl-2 col-md-6 col-lg-2">
                         <div class="footer_widget">
                             <h3 class="footer_title">
-                                Useful Links
+                               لینک های مفید
                             </h3>
                             <ul>
-                                <li><a href="#">Pricing</a></li>
-                                <li><a href="#">Features</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">قیمت</a></li>
+                                <li><a href="#">ویژگی ها</a></li>
+                                <li><a href="#">وبلاگ</a></li>
+                                <li><a href="#">مخاطب</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-6 col-lg-3">
                         <div class="footer_widget">
                             <h3 class="footer_title">
-                                Downloads
+                               دانلود ها
                             </h3>
                             <ul>
                                 <li>
                                     <a href="#">
-                                        Download from Apple Store
+                                       دانلود برای فروشگاه اپل
 
                                     </a>
                                 </li>
                                 <li><a href="#">
-                                        Download from Play Store
+                                        دانلود برای فروشگاه
                                     </a>
                                 </li>
                             </ul>
